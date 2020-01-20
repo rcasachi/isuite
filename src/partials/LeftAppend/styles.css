@@ -1,0 +1,6 @@
+section#left-append {
+    width: 300px;
+    background-color: #fff;
+    height: 100vh;
+    border-right: 1px solid #eaeaea;
+}
