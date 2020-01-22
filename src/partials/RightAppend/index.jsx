@@ -3,7 +3,7 @@ import './styles.css';
 
 function RightAppend() {
   return (
-    <aside>
+    <aside id="side-panel">
       
     </aside>
   );

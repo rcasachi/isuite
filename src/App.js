@@ -1,16 +1,22 @@
 import React from 'react';
+import { BrowserRouter, Switch } from 'react-router-dom';
+import Routes from './Routes';
 import NavBar from './partials/NavBar';
 import LeftAppend from './partials/LeftAppend';
-import Main from './partials/Main';
 import RightAppend from './partials/RightAppend';
+
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <LeftAppend />
-      <Main />
-      <RightAppend />
+      <BrowserRouter>
+        <NavBar />
+        <LeftAppend />
+          <Switch>
+            <Routes />
+          </Switch>
+        <RightAppend />  
+      </BrowserRouter>
     </div>
   );
 }

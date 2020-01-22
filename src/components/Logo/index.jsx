@@ -1,12 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 class Logo extends React.Component {
   render() {
     return (
-      <a href={this.props.link} title={this.props.title} className="logo">
+      <Link to={this.props.link} title={this.props.title} className="logo">
         <img src={this.props.image} alt={this.props.alternative} />
-      </a>
+      </Link>
     );
   }
 }

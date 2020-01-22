@@ -3,4 +3,5 @@ section#left-append {
     background-color: #fff;
     height: 100vh;
     border-right: 1px solid #eaeaea;
+    display: none;
 }

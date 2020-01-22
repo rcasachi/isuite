@@ -1,5 +1,6 @@
-aside {
+aside#side-panel {
     width: 300px;
     background-color: #3358dd;
     height: 100vh;
+    display: none;
 }

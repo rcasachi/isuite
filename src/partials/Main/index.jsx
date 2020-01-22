@@ -1,12 +1,10 @@
 import React from 'react';
 import './styles.css';
 
-function Main() {
-  return (
-    <main>
-      
-    </main>
-  );
-}
+const Main = props => (
+  <main>
+    { props.children }
+  </main>
+);
 
 export default Main;

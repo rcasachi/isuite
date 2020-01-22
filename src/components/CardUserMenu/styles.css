@@ -1,4 +1,5 @@
 .profile-item {
+  display: block;
   margin-top: 10px;
   padding: 2px;
   width: 40px;
@@ -25,6 +26,7 @@
   background-color: #fff;
   box-shadow: 0 0 14px rgba(0, 0, 0, .3);
   border-radius: 4px;
+  z-index: 99;
 }
 .profile-box .box--title {
   text-align: left;
