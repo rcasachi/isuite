@@ -5,7 +5,7 @@ class Home extends React.Component {
   render() {
     return (
       <Main>
-        <span>Hello World</span>
+        <span>Hello React World</span>
       </Main>
     );
   }

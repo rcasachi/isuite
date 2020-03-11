@@ -12,9 +12,9 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <LeftAppend />
-          <Switch>
-            <Routes />
-          </Switch>
+        <Switch>
+          <Routes />
+        </Switch>
         <RightAppend />  
       </BrowserRouter>
     </div>
